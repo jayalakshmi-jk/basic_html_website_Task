@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 5px;
+            font-family: Arial, Helvetica, sans-serif;
+            /* background-color: rgb(191, 210, 211);*/
+         
+        }
+        body{
+               background: linear-gradient(to left, lavender, mediumseagreen);
+        }
+
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+        }
+
+        .navbar ul a {
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+            /* text-shadow: 1px 1px 2px gray; */
+            box-shadow: 4px 4px 5px gray;
+              border-radius: 5px;
+        }
+
+        .navbar ul a:hover {
+            background-color: aqua;
+            
+        }
+
+        img {
+            border-radius: 50%;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .logo-text {
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            /* border: 2px solid black; */
+            border-radius: 10px;
+            margin: 20px;
+        }
+        /* .article-card {
+            line-height: 2rem;
+            width: 800px;
+            height: 600px;
+            box-shadow: 2px 2px 5px gray;
+            border-radius: 10px;
+            padding: 25px;
+            margin: 0 auto;
+            margin-top: 50px;
+        } */
+        .article-content {
+             line-height: 2rem;
+            box-shadow: 2px 2px 5px gray;
+            border-radius: 10px;
+             width: 800px;
+            margin: 0px 17%;
+            padding: 25px;
+            
+        }
+        .article-content h3{
+            box-shadow: 2px 2px 5px gray;
+            border-radius: 10px;
+            width: 300px;
+            margin-top: 20px;
+        }
+        .article-content span h3{
+             box-shadow: 2px 2px 5px gray;
+            border-radius: 10px;
+            width: 413px;
+            margin-top: 20px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <!-- -------------------------------navbar----------------------------------------- -->
+        <div class="container">
+            <div class="logo">
+                <img src="jaya.jpg" width="100" height="100">
+                <span class="logo-text">Jayalakshmi</span>
+            </div>
+            <div class="navbar">
+                <nav>
+                    <ul>
+                        <a href="index.html">Home</a>/
+                        <a href="Project.html">Project</a>/
+                        <a href="Article.html">Article</a>/
+                        <a href="Contact.html">Contact</a>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!-- -------------------------------header----------------------------------------- -->
+        <div class="header">
+            <p style="font-size: xx-large;text-align: center;font-weight: bold;">FRONTEND DEVELOPER</p><br>
+            <p style="margin-left: 490px;font-size: 15px;">html only with proper layout, no styling</p>
+        </div>
+    </header>
+    <!--------------------------------- Article---------------------------------------- -->
+    <div class="article">
+        <div class="article-card">
+            <div class="article-content">
+            <h2 style="text-align: center;">The Fundamentals of Frontend Development</h2>
+            <p>Published on: October 3, 2024</p>
+            </div>
+            <div class="article-content">
+            <h3>What is Frontend Development?</h3>
+            <p>Frontend development refers to the creation of the user interface and experience in a web application. It
+                involves designing and implementing the visual aspects of a website, which users interact with directly.
+            </p>
+            </div>
+            <div class="article-content">
+           <span> <h3>Technologies Used in Frontend Development</h3></span>
+            <p>Frontend developers primarily work with three core technologies:</p>
+            <p>HTML: The markup language that structures the content on a webpage.<br>
+                CSS: The style sheet language used to control the presentation and design of the webpage.<br>
+                JavaScript: The programming language used to create interactive and dynamic elements on the webpage.</p>
+            </div>
+            <div class="article-content">
+            <span><h3>Why is Frontend Development Important?</h3></span>
+            <p>The frontend is crucial because it is the first point of contact between users and the website.
+                A well-designed and responsive interface can significantly enhance the user experience, making it easier for users
+                 to navigate and interact with the website.</p>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------------------footer----------------------------------------- -->
+   <div>
+        <footer>
+            <p style="text-align: center; margin-top: 40px;">&copy; 2025 All rights reserved</p>
+        </footer>
+        </div>
+</body>
+
+</html>

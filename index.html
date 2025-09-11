@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Task</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 5px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+     body{
+               background: linear-gradient(to left, lavender, mediumseagreen);
+        }
+
+    .navbar ul {
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+    }
+
+    .navbar ul a {
+      text-decoration: none;
+      color: black;
+      font-size: 20px;
+      /* text-shadow: 1px 1px 2px gray; */
+      box-shadow: 4px 4px 5px gray;
+      border-radius: 5px;
+    }
+     .navbar ul a:hover {
+            background-color: aqua;  
+        }
+
+    img {
+      border-radius: 50%;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .logo-text {
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      /* border: 2px solid black; */
+      border-radius: 10px;
+      margin: 20px;
+    }
+
+    /* .header{
+         margin: 20% 31% auto 9%;
+         margin-top: 62px;
+         font-size: 18px;
+         line-height: 1.5;
+         margin-left: 242px;
+
+        } */
+    /* .projects {
+          margin-right: 500px;
+       
+    }  */
+    .main {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .main h4 {
+      margin: 5px 5px 10px 5px;
+      font-weight: bold;
+    }
+
+    .projects ul {
+      list-style: none;
+      /* padding: 15px; */
+      margin: 0;
+      margin-top: 10px;
+      height: 175px;
+      background: rgb(151, 149, 151);
+      padding: 16px;
+      border-radius: 15px;
+      box-shadow: 0 2px 27px rgba(252, 250, 250, 0.863);
+      width: 201px;
+    }
+
+    .projects ul li {
+      margin: 7px 0;
+      border-bottom: 1px solid #252222;
+      padding: 1px;
+    }
+
+    .work li {
+      list-style: none;
+    }
+
+    .exp li {
+      list-style: none;
+    }
+
+    .exp li a {
+      text-decoration: none;
+      color: black;
+      /* text-shadow: 1px 1px 2px gray; */
+      box-shadow: 2px 3px 4px gray;
+    }
+
+    .work li a {
+      text-decoration: none;
+      color: black;
+      /* text-shadow: 1px 1px 2px gray; */
+      box-shadow: 2px 3px 4px gray;
+    }
+
+    .work li a:hover {
+      color: blue;
+    }
+
+    .exp li a:hover {
+      color: blue;
+    }
+
+    .work-experience {
+      border-left: 1px solid gray;
+      border-right: 1px solid gray;
+    }
+
+    .hr {
+      border: none;
+      border-top: 1px solid gray;
+      margin: 10px 0;
+    }
+
+    .courses li {
+      list-style: none;
+    }
+
+    .courses {
+      background-color: rgb(151, 149, 151);
+      border-radius: 15px;
+      padding: 10px;
+      height: 252px;
+      width: 347px;
+      box-shadow: 0 2px 30px rgba(252, 250, 250, 0.863);
+    }
+    .reviews {
+      margin-top: 30px;
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    .review-card {
+      flex: 1;
+      min-width: 250px;
+      background: rgb(151, 149, 151);
+      padding: 15px;
+      border-radius: 30px;
+      box-shadow: 0 2px 20px rgb(252, 250, 250, 0.863);
+    }
+
+    .review-card p {
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .review-card span {
+      margin-top: 10px;
+      font-weight: bold;
+      font-size: 13px;
+      color: #555;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <!------------------------------------------------ navbar------------------------------------------------ -->
+    <div class="container">
+      <div class="logo">
+        <img src="jaya.jpg" width="100" height="100">
+        <span class="logo-text">Jayalakshmi</span>
+      </div>
+      <div class="navbar">
+        <nav>
+          <ul>
+            <a href="index.html">Home</a>/
+            <a href="Project.html">Project</a>/
+            <a href="Article.html">Article</a>/
+            <a href="Contact.html">Contact</a>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <!------------------------------------------------ header------------------------------------------------ -->
+    <div class="header">
+      <p style="font-size: xx-large;text-align: center;font-weight: bold;">FRONTEND DEVELOPER</p><br>
+      <p style="margin-left: 490px;font-size: 15px;">html only with proper layout, no styling</p>
+    </div>
+    <!-- --------------------------------------------Projects------------------------------------------------ -->
+    <div class="main">
+      <div class="projects">
+        <h4 style="padding: 15px;">Projects</h4>
+        <ul>
+          <li>HTML Only Portfolio</li>
+          <li>Calculator</li>
+          <li>Quiz App</li>
+          <li>Countdown Timer</li>
+          <li>Product Upcoming Page</li>
+        </ul>
+      </div>
+      <!-- --------------------------------------------Work Experience------------------------------------------------ -->
+      <div class="work-experience">
+        <div class="work">
+          <h4>Work Experience</h4>
+          <ul>
+            <li>roadmap.sh</li>
+            <li>solved all the frontend projects</li>
+            <li><a href="https://github.com/dashboard">Visit My Profile</a></li>
+          </ul>
+        </div>
+        <hr class="hr">
+        <div class="exp">
+          <ul>
+            <li>openSource work</li>
+            <li>Contributed to 50 open - source projects </li>
+            <li>GitHub Stars</li>
+            <li><a href="https://github.com/dashboard">Visit My GitHub Profile</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- --------------------------------------------Education------------------------------------------------ -->
+      <div class="education">
+        <div class="edu">
+          <h4>Education</h4>
+          <p>CGPA. won Acme Hackathon. Organized 30 sessions. </p>
+          </ul>
+        </div>
+
+        <div class="courses">
+          <ul>
+            <li>Discreet Mathematics</li>
+            <li>Database Management systems</li>
+            <li>Distributed Management systems</li>
+            <li>Computer Graphics</li>
+            <li>Human Computer Interaction</li>
+            <li>Web Engineering - Artificial Intelligence</li>
+            <li>Structures and Algorithms</li>
+            <li>Object Oriented Programming Data</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!------------------------------------------- ---Reviews------------------------------------------------------ -->
+    <h4 style="padding: 15px;">Reviews from my teachers</h4>
+    <div class="reviews">
+      <div class="review-card">
+        <p>John doe was a brilliant student; always stood out with his assignments.</p>
+        <span>Jane Doe,<br> Assistant Professor</span>
+      </div>
+      <div class="review-card">
+        <p>John doe was a brilliant student, always stood out with his assignments.</p>
+        <span>Jane Doe,<br> Assistant Professor</span>
+      </div>
+
+      <div class="review-card">
+        <p>John doe was a brilliant student, always stood out with his assignments.</p>
+        <span>Jane Doe,<br> Assistant Professor</span>
+      </div>
+    </div>
+  </header>
+  <div>
+        <footer>
+            <p style="text-align: center; margin-top: 40px;">&copy; 2025 All rights reserved</p>
+        </footer>
+        </div>
+</body>
+
+</html>
