@@ -11,9 +11,10 @@
             padding: 5px;
             font-family: Arial, Helvetica, sans-serif;
             /* background-color: rgb(191, 210, 211);*/
-        } 
-         body{
-               background: linear-gradient(to left, lavender, mediumseagreen);
+        }
+
+        body {
+            background: linear-gradient(to left, lavender, mediumseagreen);
         }
 
         .navbar ul {
@@ -29,12 +30,12 @@
             font-size: 20px;
             /* text-shadow: 1px 1px 2px gray; */
             box-shadow: 4px 4px 5px gray;
-              border-radius: 5px;
+            border-radius: 5px;
         }
 
-         .navbar ul a:hover {
+        .navbar ul a:hover {
             background-color: aqua;
-            
+
         }
 
         img {
@@ -112,7 +113,7 @@
             margin-top: 30px;
         } */
 
-        
+
         .heading2 {
             text-align: center;
             margin-top: 30px;
@@ -158,21 +159,22 @@
         .sm {
             text-decoration: none;
         }
-         button{
+
+        button {
             background-color: rgb(151, 149, 151);
             box-shadow: 0px 2px 11px black;
             border-radius: 5px;
             border: none;
         }
-        button a{
+
+        button a {
             text-decoration: none;
             color: black;
         }
-        button:hover{
+
+        button:hover {
             background-color: aqua;
         }
-
-       
     </style>
 </head>
 
@@ -207,21 +209,22 @@
         <p class="paragraphtag">if have any questions suggestions,or just want say hello,<br>
             feel free contact me through the form below</p>
 
-        <div class="input-div">
-            <input type="text" placeholder="Enter your name" class="name" required><br>
+        <form action="/your-server-endpoint" method="post">
+            <div class="input-div">
+                <input type="text" placeholder="Enter your name" class="name" required><br>
 
-            <input type="text" placeholder="Enter your email" class="email" required><br>
+                <input type="text" placeholder="Enter your email" class="email" required><br>
 
-            <textarea placeholder="Enter your message" class="yourmsg" required></textarea><br><br>
+                <textarea placeholder="Enter your message" class="yourmsg" required></textarea><br><br>
 
-           <button><a href="" class="sm">Send Message</a></button>
-
-        </div>
+                <button type="submit" class="sm">Send Message</button>
+            </div>
+        </form>
         </div>
         <div>
-        <footer>
-            <p style="text-align: center; margin-top: 40px;">&copy; 2025 All rights reserved</p>
-        </footer>
+            <footer>
+                <p style="text-align: center; margin-top: 40px;">&copy; 2025 All rights reserved</p>
+            </footer>
         </div>
 </body>
 
